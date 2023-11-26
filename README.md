@@ -4,6 +4,8 @@ This is a simple Temp Spoofer which uses the newest KeyAuth version as auth and 
 
 Its spoofs:
 -MAC, VolumeID, BIOS, Baseboard, Diskdrive and Registry
+
+-Usage
 -
 All you need to do is to replace the KeyAuth credentials in the main.cpp file with your own and your good to go. You can use this project as you like.
 
