@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{cce7325e-81c0-483f-acbd-78c6698cb814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{88e5ba48-0812-41fe-8ba7-f3c73035b187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spoofer">
+      <UniqueIdentifier>{b3ec0b53-244d-4f49-8e81-ebbb2f341d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\Encryption">
+      <UniqueIdentifier>{8ac2e186-9d65-4da1-aadb-abdc5e7ab64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{535aaa25-6f9b-4269-a73e-7a8d7c026808}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\Desktop\KeyAuth-CPP-Example-main\KeyAuth-CPP-Example-main\libcurl.lib">
+      <Filter>Auth</Filter>
+    </Library>
+    <Library Include="..\..\..\..\Desktop\KeyAuth-CPP-Example-main\KeyAuth-CPP-Example-main\library_x64.lib">
+      <Filter>Auth</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auth.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Security\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>Spoofer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
