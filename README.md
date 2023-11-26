@@ -3,7 +3,7 @@
 This is a simple Temp Spoofer which uses the newest KeyAuth version as auth and simple AntiDebug to prevent reverse engineering. It has a only key login, instructions inside the loader after you logged in, a serial checker and the spoof option.
 
 Its spoofs:
-MAC, VolumeID, BIOS, Baseboard, Diskdrive and Registry
+ MAC, VolumeID, BIOS, Baseboard, Diskdrive and Registry
 
 Usage
 -
